@@ -41,6 +41,7 @@ io.on('connection', function (socket) {
 	// a user has visited our page - add them to the visitorsData object
 	socket.on('visitor-data', function (data) {
 		visitorsData[socket.id] = data;
+		console.log('New Visitor', visitorsData[socket.id]);
 
 		// compute and send visitor data to the dashboard when a new user visits our page
 		io.emit('updated-stats', computeStats());
@@ -48,6 +49,7 @@ io.on('connection', function (socket) {
 
 	socket.on('disconnect', function () {
 		// a user has left our page - remove them from the visitorsData object
+		console.log('Visitor has left the site', socket.id);
 		delete visitorsData[socket.id];
 
 		// compute and send visitor data to the dashboard when a user leaves our page
