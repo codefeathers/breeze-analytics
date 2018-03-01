@@ -16,7 +16,7 @@
 	};
 })(window.history);
 
-var socket = io('https://breeze.thefeathers.in');
+var socket = io('<your-server-address>');
 var visitorData = {
 	referringSite: document.referrer,
 	domain: window.parent.location.hostname,

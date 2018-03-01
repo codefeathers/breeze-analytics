@@ -1,6 +1,6 @@
 # ⚡️ Minal
 
-A very minimal analytics solution for websites.
+Blazing fast, minimal analytics solution for websites.
 
 #### In active development.
 
