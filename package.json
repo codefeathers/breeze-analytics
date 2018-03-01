@@ -1,27 +1,29 @@
 {
-  "name": "breeze-analytics",
+  "name": "minal",
   "version": "0.0.1",
-  "description": "Web analytics like a breeze",
+  "description": "Blazing fast, minimal web analytics",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codefeathers/breeze-analytics.git"
+    "url": "git+https://github.com/codefeathers/minal.git"
   },
   "keywords": [
-    "breeze",
+    "minal",
+    "fast",
+    "minimal",
     "analytics",
     "website",
     "monitoring"
   ],
-  "author": "Muthu Kumar (https://mkr.pw)",
+  "author": "Muthu Kumar <@MKRhere> <https://mkr.pw>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codefeathers/breeze-analytics/issues"
+    "url": "https://github.com/codefeathers/minal/issues"
   },
-  "homepage": "https://github.com/codefeathers/breeze-analytics#readme",
+  "homepage": "https://github.com/codefeathers/minal#readme",
   "dependencies": {
     "express": "^4.16.2",
     "socket.io": "^2.0.4"
